@@ -42,7 +42,7 @@ ROW_LIMIT_LANL = None
 ROW_LIMIT_ENRON = None
 VAL_PCTL = 95  # percentile for AE anomaly threshold on validation set
 
-# ------------------ Upload (Colab) ------------------
+# ------------------ Upload  ------------------
 def do_upload():
     """Upload a ZIP (with CERT/, LANL/, ENRON/) or individual CSVs into /content/data."""
     try:
